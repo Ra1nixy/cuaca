@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Widget</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="weather-widget" id="weather-widget">
+        <div class="search-container">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" id="location-input" placeholder="Enter Your Location">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather-display" id="weather-display">
+            <h3 id="city-name">Location</h3>
+            <div class="icon-temp">
+                <img id="weather-icon" src="" alt="Weather Icon">
+                <span id="temperature">16°C</span>
+            </div>
+            <p id="weather-description">Few Clouds</p>
+            <div class="details">
+                <p><i class="fas fa-tint"></i> <span id="humidity">89%</span> Humidity</p>
+                <p><i class="fas fa-wind"></i> <span id="wind-speed">1 km/h</span> Wind Speed</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
